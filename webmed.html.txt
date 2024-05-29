@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sociedad de Médicos del Mañana</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Sociedad de Médicos del Mañana</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <h2>Bienvenidos a la Sociedad de Médicos del Mañana</h2>
+    <p>Texto introductorio sobre la misión y visión de la ONG.</p>
+  </section>
+
+  <section id="nosotros">
+    <h2>Nosotros</h2>
+    <p>Información sobre quiénes somos, nuestros valores y objetivos.</p>
+  </section>
+
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <p>Descripción de los proyectos actuales y pasados de la ONG.</p>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Formulario de contacto y detalles de cómo contactarnos.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Sociedad de Médicos del Mañana. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
