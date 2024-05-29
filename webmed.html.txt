@@ -3,13 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sociedad de M閐icos del Ma馻na</title>
+  <title>Sociedad de M茅dicos del Ma帽ana</title>
   <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Bienvenidos a la Sociedad de M茅dicos del Ma帽ana, una ONG dedicada a la misi贸n y visi贸n de futuros profesionales de la medicina.">
+  <meta property="og:title" content="Sociedad de M茅dicos del Ma帽ana">
+  <meta property="og:description" content="Bienvenidos a la Sociedad de M茅dicos del Ma帽ana, una ONG dedicada a la misi贸n y visi贸n de futuros profesionales de la medicina.">
+  <meta property="og:image" content="ruta/a/la/imagen.jpg">
+  <meta property="og:url" content="http://www.tu-sitio.com">
+  <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
   <header>
-    <h1>Sociedad de M閐icos del Ma馻na</h1>
-    <nav>
+    <h1>Sociedad de M茅dicos del Ma帽ana</h1>
+    <nav role="navigation" aria-label="Main menu">
       <ul>
         <li><a href="#inicio">Inicio</a></li>
         <li><a href="#nosotros">Nosotros</a></li>
@@ -20,27 +26,39 @@
   </header>
 
   <section id="inicio">
-    <h2>Bienvenidos a la Sociedad de M閐icos del Ma馻na</h2>
-    <p>Texto introductorio sobre la misi髇 y visi髇 de la ONG.</p>
+    <h2>Bienvenidos a la Sociedad de M茅dicos del Ma帽ana</h2>
+    <p>Texto introductorio sobre la misi贸n y visi贸n de la ONG.</p>
   </section>
 
   <section id="nosotros">
     <h2>Nosotros</h2>
-    <p>Informaci髇 sobre qui閚es somos, nuestros valores y objetivos.</p>
+    <p>Informaci贸n sobre qui茅nes somos, nuestros valores y objetivos.</p>
   </section>
 
   <section id="proyectos">
     <h2>Proyectos</h2>
-    <p>Descripci髇 de los proyectos actuales y pasados de la ONG.</p>
+    <p>Descripci贸n de los proyectos actuales y pasados de la ONG.</p>
   </section>
 
   <section id="contacto">
     <h2>Contacto</h2>
-    <p>Formulario de contacto y detalles de c髆o contactarnos.</p>
+    <p>Formulario de contacto y detalles de c贸mo contactarnos.</p>
+    <form action="submit_form.php" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+      
+      <button type="submit">Enviar</button>
+    </form>
   </section>
 
   <footer>
-    <p>&copy; 2024 Sociedad de M閐icos del Ma馻na. Todos los derechos reservados.</p>
+    <p>漏 2024 Sociedad de M茅dicos del Ma帽ana. Todos los derechos reservados.</p>
   </footer>
 </body>
 </html>
